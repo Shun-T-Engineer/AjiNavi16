@@ -10,9 +10,8 @@ import lombok.NoArgsConstructor;
 public class Restaurant {
 	private int restaurantId;
 	private String restaurantName;
-	private String cathPhrase;
+	private String catchPhrase;
 	private double averageRating;
-	
 	public String formatAverageRating() {
 		String result;
 		
